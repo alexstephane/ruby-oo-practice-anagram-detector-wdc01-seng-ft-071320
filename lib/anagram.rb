@@ -8,8 +8,8 @@
    
    
    def match (string)
-     string.select do |w|
-       w.split("").sort == word.split("").sort
+     string.select do |a|
+       a.split("").sort == word.split("").sort
  end
  end
  end
