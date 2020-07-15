@@ -4,6 +4,8 @@
    def initialize(word)
      @word = word
    end
+   
+   
    def match (string)
      string.select do | dip|
        dip.split("").sort == word.split("")
