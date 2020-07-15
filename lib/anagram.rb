@@ -5,6 +5,7 @@
      @word = word
    end
    def match (Array)
-     
+     string.map do | dip|
+       dip.split("")
  end
  end
