@@ -3,7 +3,7 @@
    attr_accessor :new
    
    def initialize(new)
-     @word = word
+     @new = new
    end
    
    
