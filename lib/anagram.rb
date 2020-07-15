@@ -9,3 +9,4 @@
        dip.split("").sort == word.split("")
  end
  end
+ end
