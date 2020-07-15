@@ -7,8 +7,8 @@
    
    
    def match (string)
-     string.select do |dip|
-       dip.split("").sort == word.split("")
+     string.select do |w|
+       w.split("").sort == word.split("")
  end
  end
  end
