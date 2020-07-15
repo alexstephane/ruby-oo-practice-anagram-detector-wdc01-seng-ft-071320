@@ -4,6 +4,6 @@
    def initialize (word)
      @word = word
    end
-   def Array
+   def match (Array)
  end
  end
