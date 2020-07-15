@@ -11,5 +11,5 @@
      string.select do |w|
        w.split("").sort == word.split("")
  end
- 
+ end
  end
