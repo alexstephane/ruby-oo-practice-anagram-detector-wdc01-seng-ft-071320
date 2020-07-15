@@ -4,5 +4,6 @@
    def initialize (word)
      @word = word
    end
+   def Array
  end
  end
