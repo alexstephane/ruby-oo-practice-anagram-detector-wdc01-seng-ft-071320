@@ -5,5 +5,6 @@
      @word = word
    end
    def match (Array)
+     
  end
  end
