@@ -4,7 +4,7 @@
    def initialize (word)
      @word = word
    end
-   def match (Array)
+   def match (string)
      string.map do | dip|
        dip.split("").sort == word.split("")
  end
