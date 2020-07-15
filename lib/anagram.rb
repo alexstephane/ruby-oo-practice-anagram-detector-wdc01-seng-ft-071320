@@ -5,7 +5,7 @@
      @word = word
    end
    def match (string)
-     string.map do | dip|
+     string.select do | dip|
        dip.split("").sort == word.split("")
  end
  end
