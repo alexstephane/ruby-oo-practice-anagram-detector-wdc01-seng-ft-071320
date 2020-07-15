@@ -6,6 +6,6 @@
    end
    def match (Array)
      string.map do | dip|
-       dip.split("").sort == 
+       dip.split("").sort == word.split("")
  end
  end
